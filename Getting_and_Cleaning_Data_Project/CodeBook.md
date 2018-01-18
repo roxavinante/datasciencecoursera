@@ -57,7 +57,8 @@ Each row contains, for a given subject and activity, 79 averaged signal measurem
 1. Features are normalized and bounded within [-1,1].
 1. Each feature vector is a row on the text file.
 
-<h5>Time-domain signals</h5>
+<h4>Time-domain signals</h4>
+
 * Average time-domain body acceleration in the X, Y and Z directions:
 * Standard deviation of the time-domain body acceleration in the X, Y and Z directions:
 * Average time-domain gravity acceleration in the X, Y and Z directions:
@@ -74,7 +75,25 @@ Each row contains, for a given subject and activity, 79 averaged signal measurem
 * Average and standard deviation of the time-domain magnitude of body angular velocity:
 * Average and standard deviation of the time-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time):
 
-For more information about this dataset contact: activityrecognition@smartlab.ws
+<h4> Frequency-domain signals </h4>
+
+* Average frequency-domain body acceleration in the X, Y and Z directions:
+* Standard deviation of the frequency-domain body acceleration in the X, Y and Z directions:
+* Weighted average of the frequency components of the frequency-domain body acceleration in the X, Y and Z directions:
+* Average frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+* Standard deviation of the frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+* Weighted average of the frequency components of the frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+* Average frequency-domain body angular velocity in the X, Y and Z directions:
+* Standard deviation of the frequency-domain body angular velocity in the X, Y and Z directions:
+* Weighted average of the frequency components of the frequency-domain body angular velocity in the X, Y and Z directions:
+* Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body acceleration:
+* Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body acceleration jerk (derivation of the acceleration in time):
+* Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body angular velocity:
+* Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time):
+
+
+*For more information about this dataset contact: activityrecognition@smartlab.ws*
+
 
 <h3>R script called run_analysis.R does the following.</h3>
 
