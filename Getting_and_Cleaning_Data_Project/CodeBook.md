@@ -43,8 +43,8 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 Each row contains, for a given subject and activity, 79 averaged signal measurements.
 
 **Identifiers**
-* subject - Subject identifier, integer, ranges from 1 to 30.
-* activity - Activity identifier, string with 6 possible values:
+* Subject - Subject identifier, integer, ranges from 1 to 30.
+* Activity - Activity identifier, string with 6 possible values:
   * WALKING: subject was walking
   * WALKING_UPSTAIRS: subject was walking upstairs
   * WALKING_DOWNSTAIRS: subject was walking downstairs
@@ -60,20 +60,61 @@ Each row contains, for a given subject and activity, 79 averaged signal measurem
 <h4>Time-domain signals</h4>
 
 * Average time-domain body acceleration in the X, Y and Z directions:
+  * tBodyAcc-mean-X
+  * tBodyAcc-mean-Y
+  * tBodyAcc-mean-Z
 * Standard deviation of the time-domain body acceleration in the X, Y and Z directions:
+  * tBodyAcc-std-X
+  * tBodyAcc-std-Y
+  * tBodyAcc-std-Z
 * Average time-domain gravity acceleration in the X, Y and Z directions:
+  * tGravityAcc-mean-X
+  * tGravityAcc-mean-Y
+  * tGravityAcc-mean-Z
 * Standard deviation of the time-domain gravity acceleration in the X, Y and Z directions:
+  * tGravityAcc-std-X
+  * tGravityAcc-std-Y
+  * tGravityAcc-std-Z
 * Average time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+  * tBodyAccJerk-mean-X
+  * tBodyAccJerk-mean-Y
+  * tBodyAccJerk-mean-Z
 * Standard deviation of the time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+  * tBodyAccJerk-std-X
+  * tBodyAccJerk-std-Y
+  * tBodyAccJerk-std-Z
 * Average time-domain body angular velocity in the X, Y and Z directions:
+  * tBodyGyro-mean-X
+  * tBodyGyro-mean-Y
+  * tBodyGyro-mean-Z 
 * Standard deviation of the time-domain body angular velocity in the X, Y and Z directions:
+  * tBodyGyro-std-X
+  * tBodyGyro-std-Y
+  * tBodyGyro-std-Z
 * Average time-domain body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:
+  * tBodyGyroJerk-mean-X
+  * tBodyGyroJerk-mean-Y
+  * tBodyGyroJerk-mean-Z
 * Standard deviation of the time-domain body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:
+   * tBodyGyroJerk-std-X
+   * tBodyGyroJerk-std-Y
+   * tBodyGyroJerk-std-Z
 * Average and standard deviation of the time-domain magnitude of body acceleration:
+  * tBodyAccMag-mean
+  * tBodyAccMag-std
 * Average and standard deviation of the time-domain magnitude of gravity acceleration:
+  * tGravityAccMag-mean
+  * tGravityAccMag-std
 * Average and standard deviation of the time-domain magnitude of body acceleration jerk (derivation of the acceleration in time):
+  * tBodyAccJerkMag-mean
+  * tBodyAccJerkMag-std
 * Average and standard deviation of the time-domain magnitude of body angular velocity:
+  * tBodyGyroMag-mean
+  * tBodyGyroMag-std
 * Average and standard deviation of the time-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time):
+  * tBodyGyroJerkMag-mean
+  tBodyGyroJerkMag-std
+
 
 <h4> Frequency-domain signals </h4>
 
