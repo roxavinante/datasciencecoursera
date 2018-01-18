@@ -14,6 +14,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
 <h3>For each record it is provided:</h3>
+
 1. Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 1. Triaxial Angular velocity from the gyroscope. 
 1. A 561-feature vector with time and frequency domain variables. 
@@ -21,6 +22,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 1. An identifier of the subject who carried out the experiment.
 
 <h3>The dataset includes the following files:</h3>
+
 1. 'README.txt'
 1 'features_info.txt': Shows information about the variables used on the feature vector.
 1. 'features.txt': List of all features.
@@ -31,6 +33,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 1. 'test/y_test.txt': Test labels.
 
 <h3>The following files are available for the train and test data. Their descriptions are equivalent. </h3>
+
 1.'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 1.'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
 1.'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
@@ -42,7 +45,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
-<h1>License:</h1>
+<h3>License:</h3>
 Use of this dataset in publications must be acknowledged by referencing the following publication
 * Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
