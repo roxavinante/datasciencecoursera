@@ -39,11 +39,40 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 1. 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.
 1. 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
+<h3>Variables</h3>
+Each row contains, for a given subject and activity, 79 averaged signal measurements.
 
-<h3>Notes:</h3> 
+**Identifiers**
+* subject - Subject identifier, integer, ranges from 1 to 30.
+* activity - Activity identifier, string with 6 possible values:
+  * WALKING: subject was walking
+  * WALKING_UPSTAIRS: subject was walking upstairs
+  * WALKING_DOWNSTAIRS: subject was walking downstairs
+  * SITTING: subject was sitting
+  * STANDING: subject was standing
+  * LAYING: subject was laying
+
+<h3>Measurements</h3> 
 
 1. Features are normalized and bounded within [-1,1].
 1. Each feature vector is a row on the text file.
+
+<h5>Time-domain signals</h5>
+* Average time-domain body acceleration in the X, Y and Z directions:
+* Standard deviation of the time-domain body acceleration in the X, Y and Z directions:
+* Average time-domain gravity acceleration in the X, Y and Z directions:
+* Standard deviation of the time-domain gravity acceleration in the X, Y and Z directions:
+* Average time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+* Standard deviation of the time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+* Average time-domain body angular velocity in the X, Y and Z directions:
+* Standard deviation of the time-domain body angular velocity in the X, Y and Z directions:
+* Average time-domain body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:
+* Standard deviation of the time-domain body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:
+* Average and standard deviation of the time-domain magnitude of body acceleration:
+* Average and standard deviation of the time-domain magnitude of gravity acceleration:
+* Average and standard deviation of the time-domain magnitude of body acceleration jerk (derivation of the acceleration in time):
+* Average and standard deviation of the time-domain magnitude of body angular velocity:
+* Average and standard deviation of the time-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time):
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
