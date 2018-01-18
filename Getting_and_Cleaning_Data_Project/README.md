@@ -1,5 +1,5 @@
-<h3>Getting and Cleaning Data</h3>
-<h6>by Rox Avinante, DOST-ASTI,/h6>
+###Getting and Cleaning Data
+######by Rox Avinante, DOST-ASTI
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
 
