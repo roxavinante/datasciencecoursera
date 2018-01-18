@@ -15,9 +15,9 @@ The purpose of this project is to demonstrate your ability to collect, work with
 
 1. a tidy data set as described below, 
 1. a link to a Github repository with your script for performing the analysis
-1. CodeBook.md that describes the variables, the data, and any transformations or work that you performed to clean up the data
-1. R Script - run_analysis.R
-1. README.md 
+1. [CodeBook.md](https://github.com/roxavinante/datasciencecoursera/blob/master/Getting_and_Cleaning_Data_Project/CodeBook.md) that describes the variables, the data, and any transformations or work that you performed to clean up the data
+1. R Script - [run_analysis.R](https://github.com/roxavinante/datasciencecoursera/blob/master/Getting_and_Cleaning_Data_Project/run_analysis.R)
+1. [README.md](https://github.com/roxavinante/datasciencecoursera/blob/master/Getting_and_Cleaning_Data_Project/README.md) 
 
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 
