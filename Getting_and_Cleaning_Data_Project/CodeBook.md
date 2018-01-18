@@ -47,7 +47,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
-<h3>R script called [run_analysis.R](https://github.com/roxavinante/datasciencecoursera/blob/master/Getting_and_Cleaning_Data_Project/run_analysis.R) does the following.</h3>
+<h3>R script called run_analysis.R does the following.</h3>
 
 1. Merges the training and the test sets to create one data set.
 1. Extracts only the measurements on the mean and standard deviation for each measurement.
