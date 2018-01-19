@@ -58,7 +58,7 @@ train_subject <- fread(file.path(getwd(), "UCI HAR Dataset/train/subject_train.t
 train <- cbind(train_subject, train_activity, train)
 
 #
-# Read and load training dataset.
+# Read and load test dataset.
 #
 
 test <- fread(file.path(getwd(), "UCI HAR Dataset/test/X_test.txt"))[, feature_mean_std, with = FALSE]
@@ -68,7 +68,7 @@ test_subject <- fread(file.path(getwd(), "UCI HAR Dataset/test/subject_test.txt"
 test <- cbind(test_subject, test_activity, test)
 
 #
-# Merge the training and the test sets to create one dataset.
+# Merge the training and the test data sets to create one dataset.
 #
 
 merged <- rbind(train, test)
